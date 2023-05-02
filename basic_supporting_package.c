@@ -5,11 +5,9 @@
 #include "inc/hw_ints.h"
 #include "inc/hw_memmap.h"
 #include "inc/hw_watchdog.h"
-#include "driverlib/gpio.h"
 #include "driverlib/interrupt.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/watchdog.h"
-#include "tm4c123gh6pm.h"
 
 
 //func1: watchdog timer setup for TIVA C tm4c123gh6pm
@@ -82,3 +80,4 @@ int safe_strcmp(const char *s1, const char *s2, int len)
 
     return m; // 0 means ok, >1 means bad
 }
+
